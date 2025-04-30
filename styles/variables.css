@@ -1,1 +1,11 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --inter-variable: 'Inter Variable';
+    --pressstart2p: 'PressStart2P';
+    --card-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    --border: 2px solid black;
+    --white: #fff;
+    --bg-image: repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px), repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),  linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+    --contour-color: #000;
+    --animation-fill-color: #FF0000;
+}
