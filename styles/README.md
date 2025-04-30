@@ -1,1 +1,0 @@
-https://pkhmvmaria.github.io/zakrivayuschiy-teg-f/
