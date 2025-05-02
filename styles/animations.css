@@ -72,11 +72,11 @@
   }
   
   .like-icon.is-liked {
-    animation: heart-scale 0.3s ease-in 0.1s 1 normal forwards;
+    animation: heart-scale 0.3s ease-in 0.1s 1 normal;
   }
   
   .like-icon.is-liked .sparks {
-    animation: sparks-opacity 0.3s ease-in 0.3s 1 normal forwards;
+    animation: sparks-opacity 0.3s ease-in 0.3s 1 normal;
   }
   
   .like-icon:not(.is-liked) .contour {

@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --inter-variable: 'Inter Variable';
-    --pressstart2p: 'PressStart2P';
+    --main-font: 'Inter Variable';
+    --accent-font: 'PressStart2P';
     --card-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     --border: 2px solid black;
     --white: #fff;
