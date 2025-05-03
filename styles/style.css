@@ -14,6 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   max-inline-size: 1440px;
+  margin: 0 auto;
   font-family: var(--main-font), sans-serif;
   font-variation-settings: "wght" 400;
   background-color: #ffffff;
@@ -186,6 +187,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 0;
   width: 100%;
   height: 100%;
   background: black;
@@ -198,16 +200,16 @@
   transform: scaleX(1);
 }
 
-.button:hover .button__text {
-  mix-blend-mode: difference;
-  color: var(--white);
-}
 
 .button__text {
   font-family: var(--accent-font), fantasy;
   font-size: 14px;
   line-height: 90%;
-}
+  z-index: 2;
+  color: var(--white);
+  mix-blend-mode: difference;
+  }
+
 
 .contour {
   fill: var(--contour-color);
@@ -265,13 +267,12 @@
 .floppy {
   margin: 0;
   position: relative;
-  z-index: 3;
-  fill: black;
+  z-index: 2;
 }
 
-.save__button:hover .floppy {
-  color: var(--white);
+.save__button .floppy {
   mix-blend-mode: difference;
+  color: var(--white);
 }
 
 .dialog {
